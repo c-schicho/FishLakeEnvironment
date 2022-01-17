@@ -1,0 +1,12 @@
+private const val COLOR_RESET = "\u001B[0m"
+private const val COLOR_BLUE = "\u001B[34m"
+private const val COLOR_RED = "\u001B[31m"
+private const val COLOR_WHITE = "\u001B[37m"
+private const val COLOR_GREEN = "\u001B[32m"
+private const val COLOR_PURPLE = "\u001B[35m"
+
+fun String.colorBlue() = "$COLOR_BLUE$this$COLOR_RESET"
+fun String.colorRed() = "$COLOR_RED$this$COLOR_RESET"
+fun String.colorWhite() = "$COLOR_WHITE$this$COLOR_RESET"
+fun String.colorGreen() = "$COLOR_GREEN$this$COLOR_RESET"
+fun String.colorPurple() = "$COLOR_PURPLE$this$COLOR_RESET"
